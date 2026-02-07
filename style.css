@@ -1,131 +1,56 @@
-/* RESET */
-* {
+  * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
-/* BODY */
 body {
-  background: #f4f8fb;
-  color: #222;
+  font-family: Arial, sans-serif;
   line-height: 1.6;
+  color: #333;
+  background: #f4f6f8;
 }
 
-/* HEADER */
-header {
-  background: linear-gradient(135deg, #0a58ca, #0d6efd);
+.hero {
+  background: linear-gradient(135deg, #0a58ca, #003d99);
   color: #fff;
   text-align: center;
-  padding: 40px 20px;
+  padding: 80px 20px;
 }
 
-header h1 {
-  font-size: 2.2rem;
+.hero h1 span {
+  color: #ffd700;
 }
 
-header p {
-  margin-top: 10px;
-  font-size: 1rem;
-  opacity: 0.9;
-}
-
-/* SECTIONS */
-section {
-  padding: 50px 20px;
-  max-width: 1000px;
-  margin: auto;
-}
-
-section h2 {
-  font-size: 1.8rem;
-  margin-bottom: 15px;
-  color: #0d6efd;
-}
-
-/* HOME */
-#home {
-  text-align: center;
-}
-
-#home p {
-  max-width: 600px;
-  margin: 15px auto 25px;
-  font-size: 1.05rem;
-}
-
-#home a {
+.hero .btn {
   display: inline-block;
+  margin-top: 20px;
   padding: 12px 30px;
-  background: #0d6efd;
-  color: #fff;
+  background: #ffd700;
+  color: #000;
   text-decoration: none;
-  border-radius: 30px;
   font-weight: bold;
-  transition: 0.3s;
-}
-
-#home a:hover {
-  background: #084298;
-}
-
-/* SERVICES */
-#services ul {
-  list-style: none;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 15px;
-}
-
-#services li {
-  background: #fff;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
-  text-align: center;
-  font-weight: 500;
-}
-
-/* PORTFOLIO */
-#portfolio p {
-  background: #fff;
-  padding: 20px;
-  border-radius: 10px;
-  text-align: center;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
-}
-
-/* CONTACT */
-#contact {
-  text-align: center;
-}
-
-#contact p {
-  font-size: 1.1rem;
-  background: #0d6efd;
-  color: #fff;
-  display: inline-block;
-  padding: 15px 25px;
   border-radius: 30px;
 }
 
-/* FOOTER */
-footer {
-  background: #0a0f1c;
-  color: #aaa;
-  text-align: center;
-  padding: 20px;
-  font-size: 0.9rem;
+section {
+  max-width: 900px;
+  margin: auto;
+  padding: 50px 20px;
 }
 
-/* MOBILE FIX */
-@media (max-width: 600px) {
-  header h1 {
-    font-size: 1.8rem;
-  }
+h2 {
+  margin-bottom: 15px;
+  color: #0a58ca;
+}
 
-  section h2 {
-    font-size: 1.5rem;
-  }
+ul li {
+  margin-bottom: 10px;
+}
+
+footer {
+  background: #111;
+  color: #ccc;
+  text-align: center;
+  padding: 20px;
     }
